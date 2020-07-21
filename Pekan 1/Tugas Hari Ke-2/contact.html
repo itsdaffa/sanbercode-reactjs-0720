@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="css/style.css" rel=stylesheet type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
+    </head>
+    <body>
+        <section id="top">
+            <h1>
+                Hubungi Kami
+            </h1>
+            <p>
+                <strong>Kantor: </strong> di jalan belum jadi </br>
+                <strong>Nomor Telepon: </strong> 08XX-XXXX </br>
+                <strong>Email: </strong> email@work.com </br>
+            </p>
+        </section>
+        <section id="bottom">
+            <h1>Kirimkan Pesan</h1>
+            <form action="index.html">
+                <table>
+                <tbody>
+                    <tr>
+                        
+                        <td><label for="nama"><strong>Nama</strong></label></td>
+                        <td><input type="text" id="nama" name="nama"></td>
+                        
+                    </tr>
+                    <tr>    
+                        <td><label for="email"><strong>Email</strong></label></td>
+                        <td><input type="text" id="email" name="email"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="gender"><strong>Jenis Kelamin</strong></label></td>
+                        <td>
+                        <input type="radio" id="male" name="gender" value="male">
+                        <label for="male">Laki-laki</label><br>
+                        <input type="radio" id="female" name="gender" value="female">
+                        <label for="female">Perempuan</label><br>
+                        <input type="radio" id="other" name="gender" value="other">
+                        <label for="other">Gender is a social construct</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="msg"><strong>Pesan Anda</strong></label></td>
+                        <td><textarea id="msg" rows="5" cols="60" name="msg"></textarea></td>
+                    </tr>
+                        
+                </tbody>
+                </table>
+                <input type="submit" value="Kirim">
+            </form>
+        </section>
+        <footer id=child>
+            <a href="index.html">Kembali ke Index</a>
+        </footer>
+    </body>
+</html>
