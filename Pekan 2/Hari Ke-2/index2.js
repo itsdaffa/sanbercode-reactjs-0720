@@ -19,8 +19,8 @@ function readBook(time, index) {
         readBooksPromise(fulfilled, books[index+1]);
     }).then(function (fulfilled) {
         readBooksPromise(fulfilled, books[index+1]);
-    }).then(function (fulfilled) {
-    }) .catch(function(error) {
+    }).then(function (fulfilled) {}) 
+    .catch(function(error) {
         console.log(error.message);
     })
 }
